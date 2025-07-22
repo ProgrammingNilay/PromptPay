@@ -1,0 +1,30 @@
+{
+  "name": "promptpay-tailwind",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@tanstack/react-query": "^5.82.0",
+    "@web3modal/wagmi": "3.5.7",
+    "axios": "^1.10.0",
+    "ethers": "^6.10.0",
+    "openai": "^5.8.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "viem": "1.17.0",
+    "wagmi": "1.4.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^7.0.3"
+  }
+}

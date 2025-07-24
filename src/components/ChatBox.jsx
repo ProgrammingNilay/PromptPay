@@ -17,7 +17,7 @@ export default function ChatBox() {
 
     try {
       //  Call Gemini backend to parse the user input
-      const response = await axios.post("http://localhost:5000/api/parse", {
+      const response = await axios.post("/api/parse", {
         prompt: userInput,
       });
 
